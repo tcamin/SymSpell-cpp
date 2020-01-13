@@ -1,0 +1,33 @@
+{
+  "name": "SymSpell++",
+  "version": "0.1.0",
+  "summary": "A C++ to C wrapper for a C++ SymSpell port",
+  "description": "A C++ to C wrapper for a C++ SymSpell port",
+  "homepage": "https://github.mpi-internal.com/SCM-Italy/SymSpell",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tomas Camin": "tomas.camin@adevinta.com"
+  },
+  "source": {
+    "git": "https://github.mpi-internal.com/SCM-Italy/SymSpell.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.3",
+    "osx": "10.14"
+  },
+  "static_framework": true,
+  "requires_arc": false,
+  "source_files": "SymSpell/**/*.{m,c,cc,cpp,hpp,h}",
+  "public_header_files": "SymSpell/include/*.hpp",
+  "libraries": "stdc++",
+  "pod_target_xcconfig": {
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
+    "CLANG_CXX_LIBRARY": "libc++",
+    "OTHER_LDFLAGS": "-lstdc++",
+    "OTHER_CPLUSPLUSFLAGS[arch=armv7]": "-fno-aligned-allocation"
+  }
+}

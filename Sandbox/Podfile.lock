@@ -1,0 +1,16 @@
+PODS:
+  - "SymSpell++ (0.1.0)"
+
+DEPENDENCIES:
+  - "SymSpell++ (from `../`)"
+
+EXTERNAL SOURCES:
+  "SymSpell++":
+    :path: "../"
+
+SPEC CHECKSUMS:
+  "SymSpell++": b05e049f6cc0b9977c96a4d79348adc115194801
+
+PODFILE CHECKSUM: a70807714e626ac0cfd251851d9b213f71cc086b
+
+COCOAPODS: 1.8.3

@@ -1,0 +1,6 @@
+framework module SymSpell_ {
+  umbrella header "SymSpell++-umbrella.h"
+
+  export *
+  module * { export * }
+}
